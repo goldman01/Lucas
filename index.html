@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <title>MiguelyNichole</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="imagetoolbar" content="no"> 
+    <meta name="viewport" content="width=device-width,user scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/g.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+
+
+
+<body>
+    <header>
+    <input type="checkbox" id="btn-menu">
+    <img class="logo" src="img/g.ico" alt="logo-portafolio" height="60"/>
+    <label for="btn-menu" class="icon-menu"></label>
+    <nav class="menu">
+       
+       
+       
+        <ul>
+            <li><a href="#">Hola</a></li>
+            
+            <li class="submenu"><a href="#">Nichole<span class="icon-down-open"></span></a>
+                <ul>
+                    <li><a href="#">Te amo</a></li>
+                    <li><a href="#">Te amo</a></li>
+                    <li><a href="#">Te amo</a></li>
+                    <li><a href="#">Te amo</a></li>
+            </ul>
+            </li>
+            
+            <li class="submenu"><a href="#">Andrea<span class="icon-down-open"></span></a>
+                 <ul>
+                    <li><a href="#">Te amo</a></li>
+                    <li><a href="#">Te amo</a></li>
+                    <li><a href="#">Te amo</a></li>
+                    <li><a href="#">Te amo</a></li>
+            </ul>
+            </li>
+            
+            <li><a href="#">@>--</a></li>
+        </ul>
+    </nav>
+    
+        
+        
+        
+        
+    </header>
+    
+     <script  type="text/javascript" >
+    
+     
+   $(".submenu").click(function(){
+    $(this).children("ul").slideToggle();
+   })
+
+        $("ul").click(function(p){
+  p.stopPropagation();
+   })
+ 
+    
+    </script>﻿
+    
+</body>
+
+<img src="img/lucas.jpg" alt="lucas" width="100%" height=100% position="absolute" z-index="-1" top="0" left="0""/>
+
+
+
+</html>
